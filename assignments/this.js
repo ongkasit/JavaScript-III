@@ -1,10 +1,13 @@
 /* The for principles of "this"; 
  * in your own words. explain the four principle for the "this" keyword below.
  *
- * 1. 
- * 2. 
- * 3. 
- * 4. 
+ * 1. Window/Global Object Binding: is when the "this" keyword is targeted at the default object, which is either the window or the 
+ * console. Using Josh Knell's forest analogy - you a pointing at the forest instead of just a tree.
+ * 2. Implicit Binding: is when you call a specific tree (object) within the forest (window/global console). You can use the dot
+ * notation to call the object that is the left to the dot. 
+ * 3. New binding: is when you create a completely new tree within that same forest analogy. The New binding refers to constructor
+ * function, which is not yet covered thus far in the course.
+ * 4. Explicit binding: is when you use .call .apply .binding 
  *
  * write out a code example of each explanation above
  */
